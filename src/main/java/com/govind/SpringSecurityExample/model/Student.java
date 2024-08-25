@@ -1,4 +1,4 @@
-package com.govind.SpringSecurityExample;
+package com.govind.SpringSecurityExample.model;
 
 
 import lombok.AllArgsConstructor;

@@ -1,4 +1,4 @@
-package com.govind.SpringSecurityExample;
+package com.govind.SpringSecurityExample.controller;
 
 import jakarta.servlet.http.HttpServletRequest;
 import org.springframework.web.bind.annotation.GetMapping;
