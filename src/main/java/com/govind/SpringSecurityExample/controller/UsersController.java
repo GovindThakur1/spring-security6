@@ -20,5 +20,10 @@ public class UsersController {
         return new ResponseEntity<>(usersService.register(user), HttpStatus.CREATED);
     }
 
+    @PostMapping("/login")
+    public String login(@RequestBody Users user) {
+        return usersService.verify(user);
+    }
+
 
 }
